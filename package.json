@@ -10,6 +10,10 @@
     "directory",
     "tree"
   ],
+  "preferGlobal": true,
+  "bin": {
+    "dtree": "bin/index.js"
+  },
   "main": "lib/directory-tree.js",
   "author": "Mihnea Dobrescu-Balaur",
   "license": "MIT",
@@ -17,7 +21,6 @@
     "url": "https://github.com/mihneadb/node-directory-tree/issues"
   },
   "homepage": "https://github.com/mihneadb/node-directory-tree",
-  "dependencies": {},
   "devDependencies": {
     "chai": "^2.3.0",
     "mocha": "^2.2.5"
